@@ -3,7 +3,7 @@
   "outputDirectory": "site/dist",
   "installCommand": "pnpm install",
   "framework": "nuxtjs",
-  "devCommand": "pnpm dev",
+  "rootDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
