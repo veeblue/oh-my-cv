@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm build:pkg && cd site && npm run build",
+  "buildCommand": "cd site && npm run build",
   "outputDirectory": "site/dist",
   "installCommand": "pnpm install",
   "framework": "nuxtjs",

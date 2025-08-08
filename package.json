@@ -5,7 +5,7 @@
   "packageManager": "pnpm@9.4.0",
   "type": "module",
   "scripts": {
-    "build": "pnpm build:pkg && cd site && npm run build",
+    "build": "cd site && npm run build",
     "build:pkg": "pnpm -r --stream build:pkg",
     "build-fast:pkg": "pnpm -r --stream build-fast:pkg",
     "dev": "cd site && npm run dev",
