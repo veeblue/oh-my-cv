@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm build:pkg && cd site && npm run build",
   "outputDirectory": "site/dist",
   "installCommand": "pnpm install",
   "framework": "nuxtjs",
@@ -23,12 +23,6 @@
           "value": "1; mode=block"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
     }
   ]
 }
