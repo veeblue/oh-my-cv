@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt generate",
+    "build": "pnpm -r --filter='../packages/*' build:pkg && nuxt generate",
     "dev": "nuxt dev",
     "serve": "nuxt preview",
     "postinstall": "nuxt prepare"
